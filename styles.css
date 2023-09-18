@@ -1,0 +1,300 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.imagecontainer {
+    max-width: 100px;
+    max-height: 100px;
+}
+img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 40%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+}
+
+.text-overlay h1 {
+    color: #0a0851;
+    font-size: 50px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: bolder;
+}
+
+.text-overlay p {
+    color: #ffffffdb;
+    font-size: 15px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: 500;
+}
+.button-overlay button{
+    position: absolute;
+    top: 80%;    
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: large;
+    background-color:#0a0851;
+    color: #00c2aa;
+    border-radius: 10px;
+}
+button.btn:hover{
+    background-color: #00e8cd;
+}
+/* book a visit */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden;
+}
+.video-container h1{
+    position: absolute;
+    top: 15%; 
+    left: 5%; 
+    text-align: left; 
+    color: #00c2aa;
+    font-size: 47px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.video-container p{
+    position: absolute;
+    top: 42%; 
+    left: 5%; 
+    text-align: left; 
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.video-container button {
+    position: absolute;
+    top: 80%; 
+    left: 25%; 
+    text-align: left; 
+    color: #00c2aa;
+    background-color: #0a0851;
+    padding: 20px 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    
+}
+video {
+    position: absolute;
+    left:60%;
+    top: 0;
+    
+}
+/* online pharamacy */
+.text-overlay2  {
+    position: absolute;
+    top: 320%; 
+    left: 65%; 
+    transform: translate(-50%, -50%); 
+    text-align: left; 
+}
+.button-overlay2 button {
+    position: absolute;
+    
+    top: 350%; 
+    left: 60%; 
+    transform: translate(-50%, -50%); 
+    text-align: left; 
+    background-color: #f17c51;
+    font-size: larger;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+/* home equipement */
+.text-overlay3 h1{
+    font-size: 47px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #0a0851;
+    position: absolute;
+    left: 5%;
+    top: 370%;
+}
+.text-overlay3 p{
+    position:relative;
+    top: 48%; 
+    left: 5%; 
+    text-align: left; 
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.products-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    margin: 30px;
+    text-align: center;
+}
+
+.product img {
+    margin-top: 25px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.product img:hover{
+    transform: scale(1.2);
+}
+
+.product h2 {
+    margin-top: 15px;
+    color: #0a0851;
+}
+
+.product p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #000;
+}
+/* health articles */
+.text-overlay4 h1 {
+    position: relative;
+    margin-top: 100px;
+    text-align: center; 
+}
+.text-overlay4 p {
+    position: relative;
+    text-align: center; 
+}
+
+
+
+/*  */
+header {
+
+    background-color: #00c2aa;
+    color: #fff;
+    padding: 5px;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 35px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+form label, form input {
+    display: block;
+    margin: 10px 0;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #00c2aa;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 35%;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+/* REVIEWS */
+.reviews-section {
+    margin: 10px;
+}
+
+.review {
+    width: fit-content;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    display: flex;
+}
+.reviewer {
+    display: flex;
+    align-items: center;
+}
+.rating {
+    font-size: 24px;
+}
+
+.stars {
+    color: #FFD700; /* Set star color */
+}
+
+.rating-value {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.reviewer img {
+    position: center;
+    width: 250px;
+    border-radius: 20%;
+    margin-right: 10px;
+}
+
+.review-text {
+    font-style: italic;
+    margin-left: 100px;
+    font-size: large;
+    
+}
+.overlay form{
+    position: absolute;
+    top: 780%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+}
+footer {
+    background-color: #0a0851;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
